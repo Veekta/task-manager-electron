@@ -1,0 +1,19 @@
+{
+  "name": "taskmanager-electron",
+  "productName": "Task Manager",
+  "version": "1.0.0",
+  "description": "Task Manager App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electronmon ."
+  },
+  "author": "Veekta",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "electron": "^25.2.0",
+    "electronmon": "^2.0.2",
+    "toastify-js": "^1.12.0"
+  }
+}
